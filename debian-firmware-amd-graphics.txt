@@ -1,0 +1,20 @@
+sudo nano /etc/apt/sources.list
+
+
+Debian 10 Buster
+
+deb http://deb.debian.org/debian/ buster main non-free
+
+deb http://deb.debian.org/debian/ buster-updates main
+
+deb http://deb.debian.org/debian-security buster/updates main
+
+
+Debian 11 Bullseye
+
+deb http://deb.debian.org/debian/ testing main non-free
+
+deb http://deb.debian.org/debian-security testing-security main
+
+
+sudo apt install firmware-amd-graphics
